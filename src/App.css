@@ -57,7 +57,7 @@
   aspect-ratio: 1;
   display: inline-block;
 
-  background: url("../rocket.png") center/contain no-repeat;
+  background: url("../public/rocket.png") center/contain no-repeat;
 }
 
 .main {
@@ -101,20 +101,20 @@
 }
 
 .setting::before {
-  background: url("../settings.png") center/contain no-repeat;
+  background: url("../public/settings.png") center/contain no-repeat;
 }
 
 .secure::before {
-  background: url("../lock.png") center/contain no-repeat;
+  background: url("../public/lock.png") center/contain no-repeat;
 }
 
 .check::before {
-  background: url("../check-mark.png") center/contain no-repeat;
+  background: url("../public/check-mark.png") center/contain no-repeat;
 }
 
 .button {
-  margin-block: 1.5rem;
-  padding: 1em 2em;
+  margin-block: 1rem 2.5rem;
+  padding: 1.5em 2.5em;
   background-color: rgba(223, 245, 245, 0.8);
   border-radius: 10px;
   cursor: pointer;
@@ -179,6 +179,10 @@
 @media screen and (max-width: 720px) {
   :root {
     font-size: 12px;
+  }
+
+  .link {
+    font-size: 2rem;
   }
 }
 
