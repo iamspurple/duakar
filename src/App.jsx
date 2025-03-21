@@ -30,6 +30,15 @@ function App() {
               </span>
             </li>
           </ul>
+
+          <div className="button">
+            <a
+              className="link"
+              href="tg://proxy?server=proxy.duakar.ru&port=446&secret=dd9ade2d0229f4a7828b5be4fb258b164f"
+            >
+              Подключиться
+            </a>
+          </div>
         </main>
       </div>
     </>
