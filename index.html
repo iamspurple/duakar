@@ -1,13 +1,50 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/rocket.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/rocket.png" />
     <title>Duakar</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="container">
+      <header class="header">
+        <div class="logo">DUAKAR</div>
+        <span>PROXY</span>
+      </header>
+      <main class="main">
+        <h1 class="title">Telegram без VPN</h1>
+        <ul class="list">
+          <li class="text setting">
+            <span>
+              Прокси – это встроенная функция Telegram, которая позволяет обойти
+              блокировку.
+            </span>
+          </li>
+          <li class="text secure">
+            <span>
+              Он работает только в Telegram, он безопасен и не расходует заряд,
+              в отличие от VPN.
+            </span>
+          </li>
+          <li class="text check">
+            <span>
+              <b> Duakar Proxy</b> это удобный способ всегда оставаться на
+              связи!
+            </span>
+          </li>
+        </ul>
+
+        <div class="button">
+          <a
+            class="link"
+            href="tg://proxy?server=proxy.duakar.ru&port=446&secret=dd9ade2d0229f4a7828b5be4fb258b164f"
+          >
+            Подключиться
+          </a>
+        </div>
+      </main>
+    </div>
   </body>
 </html>

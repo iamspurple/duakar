@@ -1,8 +1,0 @@
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(#2e7491, #51d6ff);
-}

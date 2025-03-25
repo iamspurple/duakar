@@ -1,18 +1,26 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#2e7491, #51d6ff);
+}
 @font-face {
   font-family: "Museo Sans";
-  src: url("../public/fonts/MuseoSansCyrl-300.ttf") format("ttf");
+  src: url("./assets/fonts/MuseoSansCyrl-300.ttf") format("ttf");
   font-weight: lighter;
 }
 
 @font-face {
   font-family: "Museo Sans";
-  src: url("../public/fonts/MuseoSansCyrl-500.ttf") format("ttf");
+  src: url("./assets/fonts/MuseoSansCyrl-500.ttf") format("ttf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Museo Sans";
-  src: url("../public/fonts/MuseoSansCyrl-900.ttf") format("ttf");
+  src: url("./assets/fonts/MuseoSansCyrl-900.ttf") format("ttf");
   font-weight: bold;
 }
 
@@ -58,7 +66,7 @@
   aspect-ratio: 1;
   display: inline-block;
 
-  background: url("../public/rocket.png") center/contain no-repeat;
+  background: url("./assets/icons/rocket.png") center/contain no-repeat;
 }
 
 .main {
@@ -103,15 +111,15 @@
 }
 
 .setting::before {
-  background: url("../public/settings.png") center/contain no-repeat;
+  background: url("./assets/icons/settings.png") center/contain no-repeat;
 }
 
 .secure::before {
-  background: url("../public/lock.png") center/contain no-repeat;
+  background: url("./assets/icons/lock.png") center/contain no-repeat;
 }
 
 .check::before {
-  background: url("../public/check-mark.png") center/contain no-repeat;
+  background: url("./assets/icons/check-mark.png") center/contain no-repeat;
 }
 
 .button {
@@ -185,7 +193,6 @@
 
   .text {
     text-align: left;
-    font-size: 2rem;
   }
 
   .button {
